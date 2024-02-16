@@ -1,6 +1,6 @@
 :root {
   --main-bg-white: #ffffff;
-  --background-button:rgb(5, 255, 130);
+  --background-button:rgb(217, 223, 220);
   --color-button:white;
   --padding-right: 4rem;
   --font-color: white;
@@ -52,7 +52,7 @@ border-bottom: solid 2px var(--colorHover);}
 
 button {
   margin-right: 6rem;
-  height: 31px;
+  height: 45px;
   width: 7rem;
   background-color: var(--background-button);
   color:var(--color-button);
@@ -61,11 +61,11 @@ button {
   width:8rem;
   height:2.2rem;
   border-radius: 22px;
-  border:1px solid rgb(218, 231, 218);
+  border:1px solid rgb(2, 137, 2);
   font-weight: 700;
   opacity:66%;
   font-size: 14px;
-  box-shadow: 1px 2px rgb(4, 187, 41);
+  /* box-shadow: 1px 2px rgb(4, 187, 41); */
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
