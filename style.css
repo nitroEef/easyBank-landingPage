@@ -1,7 +1,7 @@
 :root {
   --main-bg-white: #ffffff;
-  --background-button:rgb(217, 223, 220);
-  --color-button:white;
+ --colorbck: hsl(233, 8%, 62%);
+  --color-button:rgb(19, 19, 19);
   --padding-right: 4rem;
   --font-color: white;
   --colorHover:rgb(5, 255, 130);
@@ -52,23 +52,24 @@ border-bottom: solid 2px var(--colorHover);}
 
 button {
   margin-right: 6rem;
-  height: 45px;
-  width: 7rem;
-  background-color: var(--background-button);
+  height: 65px;
+  width: 8rem;
+  background:transparent;
   color:var(--color-button);
   cursor:pointer;
-  outline: none;
-  width:8rem;
+
   height:2.2rem;
-  border-radius: 22px;
-  border:1px solid rgb(2, 137, 2);
-  font-weight: 700;
-  opacity:66%;
+  border-radius: 17px;
+  font-weight: 600;
   font-size: 14px;
-  /* box-shadow: 1px 2px rgb(4, 187, 41); */
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-shadow: 0px 2px 0px 3px rgba(231, 238, 231, 0.247);
 }
 
+button:hover{
+  background-color: rgba(37, 208, 151, 0.772);
+  border:none;
+  color:white
+}
 
 .eef-main-background {
   height: 70vh;
@@ -277,5 +278,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
   .secbutt{
     margin-right:6rem;
     position:relative;
-    right:2rem
+    right:2rem;
+    background:white;
+    box-shadow: none;
   }
