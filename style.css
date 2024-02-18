@@ -1,19 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
 :root {
   --main-bg-white: #ffffff;
   --color-button:rgb(19, 19, 19);
   --padding-right: 4rem;
   --colorHover: hsl(136, 65%, 51%);
+  --myfont:"Public Sans";
 }
+
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: var(--myfont);
+  scroll-behavior: smooth;
+}
 
 .firstlogo{
   margin-left:4rem;
 }
+
+
 header {
   display: flex;
   justify-content: space-between;
@@ -31,9 +45,13 @@ header {
 .centerLink a{
   position: relative;
   text-decoration: none;
-  font-size: 20px;
-  color:black;
-  opacity:65%;
+  font-size: 18px;
+  color:rgb(66, 63, 63);
+  opacity:55%;
+}
+.centerLink a:hover{
+  color:rgb(0, 0, 0);
+  font-weight: 600;
 }
 .centerLink a::after{
   content:"";
@@ -84,7 +102,7 @@ button:hover{
   background-image:Linear-gradient(to right,hsl(136, 65%, 51%),rgb(78, 78, 199));
   border:none;
   color:white;
-  transition: all ease-in .6s;
+  transition: all ease-in ;
  
 }
 
@@ -113,7 +131,7 @@ button:hover{
 
 .why p{
   line-height: 2rem;
-  margin-top:4rem;
+  margin-top:2rem;
 
 }
 .text{
@@ -143,7 +161,7 @@ margin-top:2rem
   display:flex;
   flex-wrap: wrap;
   gap:7rem;
-  margin-top: rem;
+  margin-top: 1rem;
 
 }
 
@@ -152,7 +170,8 @@ main{
   height:auto;
   margin:25px 0 25px;
   padding-left:7.7rem;
-  box-shadow: 0px 1rem 3.2rem rgba(201, 198, 198, 0.222);
+  box-shadow: 1rem 1rem 7rem 1rem rgba(148, 149, 148, 0.247);
+  ;
 
 }
 
@@ -166,7 +185,8 @@ main{
 }
 
 .grid p{
-  font-size: 17px;
+  font-size: 15px;
+  line-height: 1.7rem;
 }
 
 .bigcard{
@@ -176,7 +196,7 @@ main{
   gap:4rem;
 }
 .card{
-  box-shadow: 0px 2rem 2rem 1rem rgb(246, 245, 249);
+  box-shadow: 1px 2rem 1rem 0rem rgb(246, 245, 249);
   padding-bottom:-2rem;
   
   
@@ -185,8 +205,9 @@ main{
 .cardPix{
   width:280px;
   height:222px;
-  border-radius: 5px;
   margin-top: 2rem;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
 
 }
 
@@ -202,7 +223,6 @@ main{
   font-size:17px;
   letter-spacing: 1px;
   padding-top:1rem;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   cursor:pointer;
 
@@ -214,9 +234,9 @@ main{
 }
 .card h4{
   padding-bottom:3rem;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 200;
+  font-weight: 400;
   padding-top: 1rem;
+  font-size: 14px;
 }
 
 .inn{
@@ -265,7 +285,7 @@ color: green;
 }
 .firstLinkFoot ul li a:hover, .secondLinkFoot ul li a:hover{
   color:var(--colorHover);
-  transition: all ease-in 1s;}
+  transition: all ease-in ;}
 
 .firstLinkFoot ul li a{
 text-decoration:  none;
@@ -274,8 +294,7 @@ line-height: 2rem;
 position:relative;
 right:7rem;
 font-size: 18px;
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-
+}
 .secondLinkFoot ul li a{
   text-decoration:  none;
   color:white;
@@ -283,17 +302,15 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
   position:relative;
 right:16rem;
 font-size: 18px;
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-
+}
 
   
   .reserved{
-    color:white;
+    color:rgb(143, 140, 140);
     padding-top:2rem;
     position:relative;
-    right:6rem;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-
+    right:7.5rem;
+  }
     
   
 
@@ -304,3 +321,8 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
     background:white;
     box-shadow: none;
   }
+
+  @media screen  and (max-width:500px){
+    .centerLink{
+        display:none
+    }
