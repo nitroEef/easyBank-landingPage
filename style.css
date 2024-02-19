@@ -123,6 +123,11 @@ button:hover{
   width:622px;
   height:622px;}
 
+  .whychose{
+    width:255px;
+    font-size:24px;
+  }
+
 .why{
   padding-top:5rem ;
   margin:4rem 0;
@@ -132,6 +137,7 @@ button:hover{
 .why p{
   line-height: 2rem;
   margin-top:2rem;
+  width:571px;
 
 }
 .text{
@@ -142,13 +148,17 @@ padding-top:15rem;
 
 .text p{
 margin-top:1rem;
+width:455px;
 font-size: 18px;
 }
 
-h3{
-  font-size: 57px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.nextGen{
+  width:456px;
+  font-size: 44px;
+  font-family: var(--myfont);
   font-weight: 400;
+  display:flex;
+  flex-wrap: wrap;
 
 }
 
@@ -159,7 +169,8 @@ margin-top:2rem
 
 .container{
   display:flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  width:90%;
   gap:7rem;
   margin-top: 1rem;
 
@@ -213,7 +224,12 @@ main{
 
 .lastOne{
   margin-left:7.7rem;
-  margin-top:2rem;
+  margin-top:5rem;
+}
+
+.latest{
+  font-size: 38px;
+  font-weight: 400;
 }
 
 .card p{
@@ -322,7 +338,4 @@ font-size: 18px;
     box-shadow: none;
   }
 
-  @media screen  and (max-width:500px){
-    .centerLink{
-        display:none
-    }
+  
