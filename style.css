@@ -87,12 +87,12 @@ button {
   margin-right: 5.5rem;
   height: 65px;
   width: 9rem;
-  background:transparent;
-  color:var(--color-button);
+  color:white;
   cursor:pointer;
-
-  height:2.2rem;
+  background-image:Linear-gradient(to right,hsl(136, 65%, 51%),rgb(78, 78, 199));
+   height:2.2rem;
   border-radius: 17px;
+  border:none;
   font-weight: 600;
   font-size: 14px;
   box-shadow: 0px 2px 0px 3px rgba(231, 238, 231, 0.247);
@@ -101,6 +101,7 @@ button {
 button:hover{
   background-image:Linear-gradient(to right,hsl(136, 65%, 51%),rgb(78, 78, 199));
   border:none;
+  opacity: 76%;
   color:white;
   transition: all ease-in ;
  
@@ -334,7 +335,8 @@ font-size: 18px;
     margin-right:6rem;
     position:relative;
     right:2rem;
-    background:white;
+  background-image:Linear-gradient(to right,hsl(136, 65%, 51%),rgb(78, 78, 199));
+    border: none;
     box-shadow: none;
   }
 
