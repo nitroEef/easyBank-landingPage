@@ -19,16 +19,17 @@
 }
 
   .firstpic{
- width:375px;
- height:512px;
+ width:455px;
+ height:712px;
 position:absolute;
-left:5rem; 
+left:1rem;
+ 
  ;
   } 
  .text{
     position: relative;
     right:2rem;
-    top:27rem;
+    top:29rem;
 }
 .text p{
     font-size: 14px;
@@ -37,10 +38,11 @@ left:5rem;
     margin-top: 2rem;
 }
 
-.next{
-    font-size: 32px;
-    width:300px;
-   text-align: center
+.nextGen{
+    font-size: 28px;
+    width:270px;
+   text-align: center;
+   padding-left: 1rem
     ;
 }
 
