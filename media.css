@@ -5,11 +5,13 @@
     }
    header button{
     display:none;
+    box-shadow: 0;
   }
   .eef-main-background{
     background-size:57rem;
     background-position:center; 
     z-index: -1;
+    box-shadow: 0;
   
   }
 
@@ -29,7 +31,7 @@ left:1rem;
  .text{
     position: relative;
     right:2rem;
-    top:29rem;
+    top:31rem;
 }
 .text p{
     font-size: 14px;
@@ -61,18 +63,20 @@ main{
 }
 
 .why p{
-    width:370px;
+    width:450px;
     text-align: center;
-    padding-right: 5.4rem;
-    font-size: 13px;
-    line-height: 1rem;
+    padding-right: 6rem;
+    font-size: 18px;
+    line-height: 1.4rem;
    
 }
 
 .whychose{
-    width:155px;
-    text-align: center;
+    width:215px;
     margin:0 auto;
+    font-size: 32px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 
 }
 
