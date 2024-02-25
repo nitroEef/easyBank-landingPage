@@ -21,7 +21,8 @@
   .firstpic{
  width:375px;
  height:512px;
-position:absolute 
+position:absolute;
+left:5rem; 
  ;
   } 
  .text{
