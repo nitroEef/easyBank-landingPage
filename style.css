@@ -142,7 +142,7 @@ button:hover{
 }
 .text{
 margin-left:7.7rem;
-padding-top:15rem;
+padding-top:12rem;
 
 }
 
@@ -153,8 +153,8 @@ font-size: 18px;
 }
 
 .nextGen{
-  width:456px;
-  font-size: 44px;
+  width:355px;
+  font-size: 54px;
   font-family: var(--myfont);
   font-weight: 400;
   display:flex;
@@ -180,7 +180,7 @@ margin-top:2rem
 main{
   height:auto;
   margin:25px 0 25px;
-  padding-left:7.7rem;
+  padding-left:12rem;
   box-shadow: 1rem 1rem 7rem 1rem rgba(148, 149, 148, 0.247);
   ;
 
@@ -315,9 +315,8 @@ font-size: 18px;
   text-decoration:  none;
   color:white;
   line-height: 2rem;
-  position:relative;
-right:16rem;
 font-size: 18px;
+padding-right:33rem;
 }
 
   
