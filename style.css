@@ -169,7 +169,6 @@ margin-top:2rem
 
 .container{
   display:flex;
-  flex-wrap: nowrap;
   width:90%;
   gap:7rem;
   margin-top: 1rem;
@@ -180,7 +179,7 @@ margin-top:2rem
 main{
   height:auto;
   margin:25px 0 25px;
-  padding-left:12rem;
+  padding-left:7.7rem;
   box-shadow: 1rem 1rem 7rem 1rem rgba(148, 149, 148, 0.247);
   ;
 
