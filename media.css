@@ -86,8 +86,20 @@ margin-left : 2.2rem;
 }
 
 footer{
-    height:273px;
-}}
+    height:175px;
+    padding-left: 2rem;
+}
+
+.firstsecond {
+padding-left: 4rem;
+}
+
+.lastbutt{
+    padding-left:8rem;
+  }
+
+
+}
 
 /* .footerLogos{
     display:flex;

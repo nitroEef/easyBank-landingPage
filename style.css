@@ -289,8 +289,8 @@ footer{
 .socialMediaLogo{
   padding-top: 2rem;
   cursor: pointer;
-  padding-right: 3rem;
-  
+  display: flex;
+  gap:1rem;
 }
 
 .firstsecond{
@@ -328,12 +328,11 @@ font-size: 18px;
   .reserved{
     color:rgb(143, 140, 140);
     padding-top:2rem;
-    position:relative;
-    right:7.5rem;
+    padding-right:2rem;
   }
     
   .lastbutt{
-    padding-right: 3rem;
+    padding-right: 2rem;
   }
 
   .secbutt{
@@ -341,6 +340,7 @@ font-size: 18px;
   background-image:Linear-gradient(to right,hsl(136, 65%, 51%),rgb(78, 78, 199));
     border: none;
     box-shadow: none;
+    margin-left: 6rem;
   }
 
   
