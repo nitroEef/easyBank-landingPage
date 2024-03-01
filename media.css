@@ -64,6 +64,7 @@
         margin-top: 1rem;
       
       }
+
 main{
     padding-left: 3rem;
 }
@@ -73,26 +74,33 @@ main{
 }
 
 .bigcard{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width:0;
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
     
 }
+
 
 .lastOne{
 
 margin-left : 2.2rem;
 }
 
+footer{
+    height:333px;
+}
 
-
+.easy
 
 
 
         }
 
         
+
+
+
+
+
 
 
 
@@ -199,7 +207,10 @@ main{
 }
 .lastOne{
     margin-left:6.5rem;
-}}
+}
+
+
+}
  /* footer{
     height:445px;
   
