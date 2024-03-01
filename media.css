@@ -86,14 +86,28 @@ margin-left : 2.2rem;
 }
 
 footer{
-    height:333px;
+    height:273px;
+}}
+
+/* .footerLogos{
+    display:flex;
+    flex-direction:column;
+    gap:2rem;
 }
 
-.easy
+.easysocialandlink{
+    display:flex;
+} */
 
 
 
-        }
+
+
+
+
+
+
+}
 
         
 
