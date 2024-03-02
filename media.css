@@ -143,6 +143,12 @@ footer{
     .centerLink{
         display:none
     }
+
+    .icon{
+        display: flex;
+        font-size: 32px;
+        padding-right:1rem
+    }
    header button{
     display:none;
     box-shadow: 0;
