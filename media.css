@@ -13,6 +13,10 @@
      gap:22px;
      
     }
+    .centerLink ul li a{
+        font-size: 16px;
+        
+       }
     button{
         height:2rem;
         width:7rem;
@@ -86,31 +90,36 @@ margin-left : 2.2rem;
 }
 
 footer{
-    height:175px;
+    height:215px;
     padding-left: 2rem;
 }
 
-.firstsecond {
-padding-left: 4rem;
-}
-
-.lastbutt{
-    padding-left:8rem;
+.firstsecond{
+    display:flex;
+    gap:2rem;
+    padding-left:4rem;
+    font-size: 1rem;
+  }
+  
+  .reserved{
+    font-size: 14px;
   }
 
+  .firstLinkFoot ul li a{
+    text-decoration:  none;
+    color:white;
+    line-height: 2rem;
+    
+    font-size: 15px;
+    }
 
-}
-
-/* .footerLogos{
-    display:flex;
-    flex-direction:column;
-    gap:2rem;
-}
-
-.easysocialandlink{
-    display:flex;
-} */
-
+    .secondLinkFoot ul li a{
+        text-decoration:  none;
+        color:white;
+        line-height: 2rem;
+        
+        font-size: 15px;
+        }
 
 
 
