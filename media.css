@@ -139,7 +139,7 @@ footer{
 
 
 
-@media screen  and (max-width:500px){
+@media screen  and (max-width:450px){
     .centerLink{
         display:none
     }
@@ -161,23 +161,23 @@ footer{
 }
 
   .firstpic{
- width:455px;
- height:712px;
+ width:355px;
+ height:512px;
 position:absolute;
-left:1rem;
+left:2.5rem;
  
  ;
   } 
  .text{
     position: relative;
-    right:2rem;
-    top:31rem;
+    right:5rem;
+    top:22rem;
 }
 
 
 .nextGen{
-    font-size: 27px;
-    width:270px;
+    font-size: 37px;
+    width:310px;
    text-align: center;
    padding-left: 1.7rem
     ;
@@ -186,11 +186,12 @@ left:1rem;
 .text p{
     font-size: 14px;
     text-align: center;
-    width:315px;
+    width:335px;
     margin-top: 2rem;
+    padding-left: rem;
 }
 .secondBut{
-    margin-left: 4.5rem;
+    margin-left: 6rem;
   background-image:Linear-gradient(to right,hsl(136, 65%, 51%),rgb(78, 78, 199));
     color:white;
     width:9rem;
