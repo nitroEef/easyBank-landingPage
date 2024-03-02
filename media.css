@@ -211,9 +211,10 @@ main{
 }
 
 .why p{
-    width:417px;
+    width:
+    217px;
     text-align: center;
-    padding-right: 6rem;
+    padding-right: 2rem;
     font-size: 17px;
     line-height: 1.4rem;
    
