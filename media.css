@@ -206,22 +206,22 @@ left:2.5rem;
 }
 
 main{
-    padding-top:14rem;
+    padding-top:22rem;
     padding-left: 4rem;
 }
 
 .why p{
     width:
-    217px;
+    350px;
     text-align: center;
-    padding-right: 2rem;
+    margin-left:-2rem ;
     font-size: 17px;
     line-height: 1.4rem;
-   
+   word-wrap: normal;
 }
 
 .whychose{
-    width:215px;
+    width:225px;
     margin:0 auto;
     font-size: 32px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -250,19 +250,72 @@ main{
 }
 .lastOne{
     margin-left:6.5rem;
+    
 }
 
+.latest{
+    margin-left:-1rem;
+    width:322px;
+}
+
+.bigcard{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -4rem;   
+}
+
+.cardPix{
+    width:355px;
+    height:222px;
 
 }
- /* footer{
+.inn{
+    width:322px;
+    padding:1rem;
+}
+  footer{
     height:445px;
+    width:auto;
+    display: grid;
+    padding-left: 8rem;
   
 }
  .footerLogos{
     display:grid;
 }
-.firstLinkFoot {
-    padding-left: 9rem;
 
+
+.easysocialandlink{
+    display:grid;
 }
-}  */
+
+.firstsecond{
+    display: grid;
+    gap:0;
+    margin-left:-12rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+.secbutt{
+    position:relative;
+    right:5rem;
+    top:1rem;
+    width:9rem;
+
+  }
+  .easylogo{
+    padding-left: 1rem;
+  }
+
+  .socialMediaLogo{
+    padding-right: 3rem;
+    gap:1.2rem;
+  }
+
+
+
+  .reserved{
+    position:relative;
+    right:1rem;
+  }
+}  
