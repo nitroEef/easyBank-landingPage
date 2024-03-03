@@ -333,9 +333,13 @@ main{
 
 
 
-@media screen  and (max-width:420px){
-  
-  
+@media screen  and (max-width:350px){
+    .centerLink{
+        display:none
+    }
+    header{
+        position: absolute;
+    }
 
     .icon{
         display: flex;
@@ -347,7 +351,7 @@ main{
     box-shadow: 0;
   }
   .eef-main-background{
-    background-size:66rem;
+    background-size:67rem;
     background-position:center; 
     z-index: -1;
     box-shadow: 0;
@@ -361,7 +365,7 @@ main{
 
  
 .firstpic{
-   width:355px;
+   width:275px;
    height:512px;
    position:absolute;
    left:2.5rem;
@@ -376,21 +380,20 @@ main{
 
 .nextGen{
     font-size: 45px;
-    width:350px;
+    width:290px;
    text-align: center;
-   /* padding-left: 1.7rem */
-    ;
+    margin-left:-1rem;    ;
 }
 
 .text p{
     font-size: 16px;
     text-align: center;
-    width:335px;
+    width:315px;
     margin-top: 2rem;
-    padding-left: 1rem;
+    margin-left: -2rem;
 }
 .secondBut{
-    margin-left: 6rem;
+    margin-left: 3.5rem;
   background-image:Linear-gradient(to right,hsl(136, 65%, 51%),rgb(78, 78, 199));
     color:white;
     width:9rem;
@@ -403,14 +406,7 @@ main{
     padding-left: 4rem;
 }
 
-.why p{
-    width:390px;
-    text-align: center;
-    margin-left:-3rem ;
-    font-size: 19px;
-    line-height: 2rem;
-   word-wrap: normal;
-}
+
 
 .whychose{
     width:245px;
@@ -419,6 +415,14 @@ main{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
+}
+.why p{
+    width:340px;
+    text-align: center;
+    margin-left:-3.5rem ;
+    font-size: 19px;
+    line-height: 2rem;
+   word-wrap: normal;
 }
 
 .container{
@@ -438,13 +442,11 @@ main{
 }
 .grid p{
     text-align: center;
-    font-size: 18px;
-    width:352px;
+    font-size: 16px;
+    width:322px;
     line-height: 1.7rem;
-}
-.lastOne{
-    margin-left:6.5rem;
-    
+    margin-left:-1rem;
+
 }
 
 .logome{
@@ -453,69 +455,43 @@ main{
     align-items: center;
 }
 
-.latest{
-    margin-left:-1rem;
-    width:322px;
-}
-
 .bigcard{
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
-    margin-left: -4rem;   
+    width:305px;
+    position:relative;
+    right:1rem;
+   
+    /* column-gap: 2rem; */
 }
 
-.cardPix{
-    width:355px;
+/* .lastOne{
+    width:374px;
+} */
+
+ .cardPix{
+    width:305px;
     height:222px;
 
+} 
+.latest{
+    width:225px;
+    margin-left:-2.6rem;
+}
+.card{
+    width:305px;
+   
 }
 .inn{
-    width:322px;
-    padding:1rem;
+    width:275px;
+
+    /* padding:rem; */
 }
   footer{
     height:445px;
     width:auto;
     display: grid;
-    padding-left: 8rem;
+    padding-left: 6rem;
   
 }
- .footerLogos{
-    display:grid;
 }
-
-
-.easysocialandlink{
-    display:grid;
-}
-
-.firstsecond{
-    display: grid;
-    gap:0;
-    margin-left:-12rem;
-    margin-top: 2rem;
-    text-align: center;
-}
-.secbutt{
-    position:relative;
-    right:5rem;
-    top:1rem;
-    width:9rem;
-
-  }
-  .easylogo{
-    padding-left: 1rem;
-  }
-
-  .socialMediaLogo{
-    padding-right: 3rem;
-    gap:1.2rem;
-  }
-
-
-
-  .reserved{
-    position:relative;
-    right:1rem;
-  }
-}  
