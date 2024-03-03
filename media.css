@@ -144,6 +144,9 @@ footer{
     .centerLink{
         display:none
     }
+    header{
+        position: absolute;
+    }
 
     .icon{
         display: flex;
@@ -232,6 +235,7 @@ main{
 .container{
     display:flex;
     flex-wrap: wrap;
+    margin-left:-3rem;
     gap:1rem;
     width:90%;
 }
@@ -240,13 +244,203 @@ main{
 
 }
 .grid h4{
-    text-align: center
-    ;
+    text-align: center;
+    font-size: 30px;
 }
 .grid p{
     text-align: center;
-    font-size: 14px;
-    width:312px
+    font-size: 18px;
+    width:352px;
+    line-height: 1.7rem;
+}
+.lastOne{
+    margin-left:6.5rem;
+    
+}
+
+.logome{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.latest{
+    margin-left:-1rem;
+    width:322px;
+}
+
+.bigcard{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -4rem;   
+}
+
+.cardPix{
+    width:355px;
+    height:222px;
+
+}
+.inn{
+    width:322px;
+    padding:1rem;
+}
+  footer{
+    height:445px;
+    width:auto;
+    display: grid;
+    padding-left: 8rem;
+  
+}
+ .footerLogos{
+    display:grid;
+}
+
+
+.easysocialandlink{
+    display:grid;
+}
+
+.firstsecond{
+    display: grid;
+    gap:0;
+    margin-left:-12rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+.secbutt{
+    position:relative;
+    right:5rem;
+    top:1rem;
+    width:9rem;
+
+  }
+  .easylogo{
+    padding-left: 1rem;
+  }
+
+  .socialMediaLogo{
+    padding-right: 3rem;
+    gap:1.2rem;
+  }
+
+
+
+  .reserved{
+    position:relative;
+    right:1rem;
+  }
+}  
+
+
+
+@media screen  and (max-width:420px){
+  
+  
+
+    .icon{
+        display: flex;
+        font-size: 32px;
+        padding-right:1rem
+    }
+   header button{
+    display:none;
+    box-shadow: 0;
+  }
+  .eef-main-background{
+    background-size:66rem;
+    background-position:center; 
+    z-index: -1;
+    box-shadow: 0;
+  
+  }
+
+.firstlogo{
+    position:relative;
+    right:1rem;
+}
+
+ 
+.firstpic{
+   width:355px;
+   height:512px;
+   position:absolute;
+   left:2.5rem;
+
+  } 
+ .text{
+    position: relative;
+    right:5rem;
+    top:22rem;
+}
+
+
+.nextGen{
+    font-size: 45px;
+    width:350px;
+   text-align: center;
+   /* padding-left: 1.7rem */
+    ;
+}
+
+.text p{
+    font-size: 16px;
+    text-align: center;
+    width:335px;
+    margin-top: 2rem;
+    padding-left: 1rem;
+}
+.secondBut{
+    margin-left: 6rem;
+  background-image:Linear-gradient(to right,hsl(136, 65%, 51%),rgb(78, 78, 199));
+    color:white;
+    width:9rem;
+    height:2.7rem;
+    border:none;
+}
+
+main{
+    padding-top:22rem;
+    padding-left: 4rem;
+}
+
+.why p{
+    width:390px;
+    text-align: center;
+    margin-left:-3rem ;
+    font-size: 19px;
+    line-height: 2rem;
+   word-wrap: normal;
+}
+
+.whychose{
+    width:245px;
+    margin:0 auto;
+    font-size: 37px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left:-3rem;
+    gap:1rem;
+    width:90%;
+}
+.grid{
+    padding-left: 1rem;
+
+}
+.grid h4{
+    text-align: center;
+    font-size: 30px;
+}
+.grid p{
+    text-align: center;
+    font-size: 18px;
+    width:352px;
+    line-height: 1.7rem;
 }
 .lastOne{
     margin-left:6.5rem;
