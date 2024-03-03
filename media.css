@@ -131,15 +131,6 @@ footer{
 
 }
 
-        
-
-
-
-
-
-
-
-
 @media screen  and (max-width:450px){
     .centerLink{
         display:none
@@ -332,6 +323,169 @@ main{
 }  
 
 
+
+
+
+@media screen  and (max-width:376px){
+    .centerLink{
+        display:none
+    }
+    header{
+        position: absolute;
+    }
+
+    .icon{
+        display: flex;
+        font-size: 32px;
+        padding-right:1rem
+    }
+   header button{
+    display:none;
+    box-shadow: 0;
+  }
+  .eef-main-background{
+    background-size:auto;
+    background-position:center; 
+    z-index: -1;
+    box-shadow: 0;
+  
+  }
+
+.firstlogo{
+    position:relative;
+    right:1rem;
+}
+
+ 
+.firstpic{
+   width:255px;
+   height:372px;
+   position:absolute;
+   left:4rem;
+
+  } 
+ .text{
+    position: relative;
+    left:-4rem;
+    top:14rem;
+}
+
+
+.nextGen{
+    font-size: 35px;
+    width:350px;
+   text-align: center;
+    margin-left:-2.5rem;    ;
+}
+
+.text p{
+    font-size: 14px;
+    text-align: center;
+    width:345px;
+    margin-top: 2rem;
+    margin-left: -3rem;
+}
+.secondBut{
+    margin-left: 3.5rem;
+  background-image:Linear-gradient(to right,hsl(136, 65%, 51%),rgb(78, 78, 199));
+    color:white;
+    width:9rem;
+    height:2.7rem;
+    border:none;
+}
+
+main{
+    padding-top:22rem;
+    padding-left: 4rem;
+}
+
+
+
+.whychose{
+    width:245px;
+    margin:1rem auto;
+    font-size: 37px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+.why p{
+    width:370px;
+    text-align: center;
+    margin-left:-3.5rem ;
+    font-size: 19px;
+    line-height: 2rem;
+   word-wrap: normal;
+}
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left:-3rem;
+    gap:1rem;
+    width:90%;
+}
+.grid{
+    padding-left: 1rem;
+
+}
+.grid h4{
+    text-align: center;
+    font-size: 30px;
+    margin-left: -1rem;
+}
+.grid p{
+    text-align: center;
+    font-size: 16px;
+    width:352px;
+    line-height: 1.7rem;
+    margin-left:-1rem;
+
+}
+
+.logome{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: -1rem;
+}
+
+.bigcard{
+    display:flex;
+    flex-wrap: wrap;
+    width:305px;
+    position:relative;
+   
+}
+
+
+
+ .cardPix{
+    width:305px;
+    height:222px;
+
+} 
+.latest{
+    width:275px;
+    margin-left:-2.6rem;
+}
+.card{
+    width:305px;
+   
+}
+.inn{
+    width:275px;
+ 
+}
+
+  footer{
+    height:445px;
+    width:auto;
+    display: grid;
+    padding-left: 6rem;
+  
+}
+}
 
 @media screen  and (max-width:350px){
     .centerLink{
