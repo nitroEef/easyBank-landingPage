@@ -38,7 +38,7 @@
     .text{
         position: relative;
         left:-5rem;
-        bottom:4rem
+        bottom:4rem;
     }
 
     .firstpic{
@@ -49,14 +49,15 @@
          } 
 
     .nextGen{
-       font-size: 32px;
-       width:320px;}
+       font-size: 35px;
+       width:270px;
+    }
        
         
        
        .text p{
         font-size: 16px;
-        width:315px;
+        width:271px;
         margin-top: 2rem;
         line-height: 1.5rem;
     }
@@ -64,7 +65,6 @@
     .container{
         display:grid;
         grid-template-columns: repeat(2,1fr);
-        width:auto;
         margin-top: 1rem;
       
       }
@@ -80,7 +80,8 @@ main{
 .bigcard{
     display:grid;
     grid-template-columns:repeat(2, 1fr);
-    
+    width: 77%;
+    column-gap: 7rem;
 }
 
 
@@ -166,13 +167,13 @@ footer{
     right:1rem;
 }
 
-  .firstpic{
- width:355px;
- height:512px;
-position:absolute;
-left:2.5rem;
  
- ;
+.firstpic{
+   width:355px;
+   height:512px;
+   position:absolute;
+   left:2.5rem;
+
   } 
  .text{
     position: relative;
@@ -182,19 +183,19 @@ left:2.5rem;
 
 
 .nextGen{
-    font-size: 37px;
-    width:310px;
+    font-size: 45px;
+    width:350px;
    text-align: center;
-   padding-left: 1.7rem
+   /* padding-left: 1.7rem */
     ;
 }
 
 .text p{
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     width:335px;
     margin-top: 2rem;
-    padding-left: rem;
+    padding-left: 1rem;
 }
 .secondBut{
     margin-left: 6rem;
@@ -211,19 +212,18 @@ main{
 }
 
 .why p{
-    width:
-    350px;
+    width:390px;
     text-align: center;
-    margin-left:-2rem ;
-    font-size: 17px;
-    line-height: 1.4rem;
+    margin-left:-3rem ;
+    font-size: 19px;
+    line-height: 2rem;
    word-wrap: normal;
 }
 
 .whychose{
-    width:225px;
+    width:245px;
     margin:0 auto;
-    font-size: 32px;
+    font-size: 37px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 
@@ -251,6 +251,12 @@ main{
 .lastOne{
     margin-left:6.5rem;
     
+}
+
+.logome{
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 .latest{
