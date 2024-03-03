@@ -379,18 +379,18 @@ main{
 
 
 .nextGen{
-    font-size: 45px;
-    width:290px;
+    font-size: 35px;
+    width:350px;
    text-align: center;
-    margin-left:-1rem;    ;
+    margin-left:-2.5rem;    ;
 }
 
 .text p{
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
-    width:315px;
+    width:345px;
     margin-top: 2rem;
-    margin-left: -2rem;
+    margin-left: -3rem;
 }
 .secondBut{
     margin-left: 3.5rem;
@@ -410,7 +410,7 @@ main{
 
 .whychose{
     width:245px;
-    margin:0 auto;
+    margin:1rem auto;
     font-size: 37px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
